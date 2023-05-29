@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Readex+Pro&display=swap" rel="stylesheet"> 
+
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+	<link rel="stylesheet" href="estilos.css">
+	<title>EXSAL</title>
+</head>
+<body>
+
+	<nav>
+        <a href="index.html"><img decoding="async" src="img/favicon.png" width="75px"></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="EXP.HTML">INICIO</a></li>
+                <li><a href="nosotros.html">NOSOTROS</a></li>
+                <li><a href="course.html">BLOG</a></li>
+                <li><a href="contactoo.html">CONTACTANOS</a></li>
+               
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+
+
+	<div class="hero">
+		<h1>Nuestras Instalaciones</h1>
+	</div>
+	<div class="container">
+		<div class="evento">
+			<div class="foto" data-aos="fade-up">
+				<img src="img/electricidad.jpg" alt="">
+			</div>
+			<h3 class="fecha">Taller de electricidad</h3>
+		</div>
+		<div class="evento">
+			<div class="foto" data-aos="fade-down">
+				<img src="img/radioxx.jpg" alt="">
+			</div>
+			<h3 class="fecha">Radio Exsal</h3>
+		</div>
+		<div class="evento">
+			<div class="foto" data-aos="fade-left">
+				<img src="img/mendez.jpg" alt="">
+			</div>
+			<h3 class="fecha">Taller Electronica</h3>
+		</div>
+		<div class="evento">
+			<div class="foto" data-aos="fade-right">
+				<img src="img/dicaciones.jpg" alt="">
+			</div>
+			<h3 class="fecha">Comunicaciones</h3>
+		</div>
+		<div class="evento">
+			<div class="foto" data-aos="fade-up">
+				<img src="img/taller1.jpg" alt="">
+			</div>
+			<h3 class="fecha">Talleres de Automotriz</h3>
+		</div>
+		<div class="evento">
+			<div class="foto" data-aos="fade-up">
+				<img src="img/WhatsApp Image 2023-05-28 at 5.16.51 PM.jpeg" alt="">
+			</div>
+			<h3 class="fecha">Taller Aeronautica</h3>
+		</div>
+	</div>
+
+
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+	<script>
+		AOS.init({
+			duration: 1000,
+			once: true
+		});
+	</script>
+</body>
+</html>
